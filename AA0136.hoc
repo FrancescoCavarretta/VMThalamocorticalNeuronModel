@@ -1,0 +1,499 @@
+begintemplate AA0136
+create soma[1]
+public soma
+create dend[31]
+public dend
+create axon[1]
+public axon
+public set_it, set_l, set_na, set_nap, set_km, set_kdr, set_ka, get_km, get_h, set_h, set_sk, set_bk, set_cacc
+proc create_soma_0() {
+soma[0] {pt3dclear()}
+soma[0] {pt3dadd(0,0,0,4.82868)}
+soma[0] {pt3dadd(0,0,4.82868,4.82868)}
+}
+proc create_dend_0() {
+dend[0] {pt3dclear()}
+dend[0] {pt3dadd(-34.87,-34.04,-34.56,0.59)}
+dend[0] {pt3dadd(-45.8,-50.21,-62.34,0.59)}
+}
+proc create_dend_1() {
+dend[1] {pt3dclear()}
+dend[1] {pt3dadd(20.44,-14.78,-3.27,0.876196)}
+dend[1] {pt3dadd(28.49,-18.58,-7.46,0.876196)}
+dend[1] {pt3dadd(33.34,-32.66,-9.16,0.876196)}
+}
+proc create_dend_2() {
+dend[2] {pt3dclear()}
+dend[2] {pt3dadd(33.34,-32.66,-9.16,0.57)}
+dend[2] {pt3dadd(45.04,-56.56,-7.05,0.57)}
+dend[2] {pt3dadd(55.98,-66.38,-2.2,0.57)}
+dend[2] {pt3dadd(73.45,-74.02,0.04,0.57)}
+dend[2] {pt3dadd(86.92,-89.99,-10.29,0.57)}
+dend[2] {pt3dadd(98.05,-112.19,-17.46,0.57)}
+dend[2] {pt3dadd(125.09,-130.99,-34.59,0.57)}
+dend[2] {pt3dadd(233.89,-193.09,-80.23,0.57)}
+dend[2] {pt3dadd(270.89,-207.39,-94.55,0.57)}
+dend[2] {pt3dadd(291.59,-218.89,-115.88,0.57)}
+}
+proc create_dend_3() {
+dend[3] {pt3dclear()}
+dend[3] {pt3dadd(33.34,-32.66,-9.16,0.755156)}
+dend[3] {pt3dadd(40.65,-44.78,-14.45,0.755156)}
+dend[3] {pt3dadd(76.76,-58.34,-39.43,0.755156)}
+}
+proc create_dend_4() {
+dend[4] {pt3dclear()}
+dend[4] {pt3dadd(76.76,-58.34,-39.43,0.639552)}
+dend[4] {pt3dadd(114.09,-62.95,-61.51,0.639552)}
+dend[4] {pt3dadd(142.09,-85.34,-69.58,0.639552)}
+dend[4] {pt3dadd(160.09,-88.1,-85.69,0.639552)}
+dend[4] {pt3dadd(181.29,-99.47,-88.6,0.639552)}
+}
+proc create_dend_5() {
+dend[5] {pt3dclear()}
+dend[5] {pt3dadd(181.29,-99.47,-88.6,0.53)}
+dend[5] {pt3dadd(216.29,-116.99,-105.08,0.53)}
+dend[5] {pt3dadd(260.59,-144.69,-106.38,0.53)}
+}
+proc create_dend_6() {
+dend[6] {pt3dclear()}
+dend[6] {pt3dadd(181.29,-99.47,-88.6,0.53)}
+dend[6] {pt3dadd(211.69,-121.19,-96.1,0.53)}
+dend[6] {pt3dadd(238.19,-162.29,-103.48,0.53)}
+dend[6] {pt3dadd(258.09,-168.79,-110.78,0.53)}
+}
+proc create_dend_7() {
+dend[7] {pt3dclear()}
+dend[7] {pt3dadd(76.76,-58.34,-39.43,0.55)}
+dend[7] {pt3dadd(104.19,-49.34,-92.91,0.55)}
+dend[7] {pt3dadd(115.89,-49.49,-116.08,0.55)}
+}
+proc create_dend_8() {
+dend[8] {pt3dclear()}
+dend[8] {pt3dadd(4.29,-13.01,10.54,0.803778)}
+dend[8] {pt3dadd(9.54,-25.3,22.08,0.803778)}
+dend[8] {pt3dadd(29.07,-72.2,33.4,0.803778)}
+}
+proc create_dend_9() {
+dend[9] {pt3dclear()}
+dend[9] {pt3dadd(29.07,-72.2,33.4,0.675097)}
+dend[9] {pt3dadd(42.4,-91.84,29.52,0.675097)}
+dend[9] {pt3dadd(49.71,-111.79,27.61,0.675097)}
+dend[9] {pt3dadd(66.87,-131.79,29.9,0.675097)}
+dend[9] {pt3dadd(75.15,-149.49,25.89,0.675097)}
+dend[9] {pt3dadd(85.76,-167.29,20.39,0.675097)}
+dend[9] {pt3dadd(97.41,-202.39,24.17,0.675097)}
+dend[9] {pt3dadd(105.19,-215.59,26.44,0.675097)}
+}
+proc create_dend_10() {
+dend[10] {pt3dclear()}
+dend[10] {pt3dadd(105.19,-215.59,26.44,0.55)}
+dend[10] {pt3dadd(152.39,-239.59,13.04,0.55)}
+dend[10] {pt3dadd(160.19,-252.29,23.61,0.55)}
+dend[10] {pt3dadd(157.29,-266.79,45.4,0.55)}
+dend[10] {pt3dadd(161.49,-273.49,47.1,0.55)}
+dend[10] {pt3dadd(148.59,-274.59,60.16,0.55)}
+}
+proc create_dend_11() {
+dend[11] {pt3dclear()}
+dend[11] {pt3dadd(105.19,-215.59,26.44,0.55)}
+dend[11] {pt3dadd(99.72,-242.59,38.54,0.55)}
+}
+proc create_dend_12() {
+dend[12] {pt3dclear()}
+dend[12] {pt3dadd(29.07,-72.2,33.4,0.57)}
+dend[12] {pt3dadd(53.21,-79.47,29.4,0.57)}
+dend[12] {pt3dadd(79.47,-96.47,32.47,0.57)}
+dend[12] {pt3dadd(109.49,-113.59,36.56,0.57)}
+dend[12] {pt3dadd(137.79,-129.79,33.25,0.57)}
+dend[12] {pt3dadd(151.89,-127.29,31.3,0.57)}
+dend[12] {pt3dadd(173.69,-134.99,37.57,0.57)}
+dend[12] {pt3dadd(186.29,-158.99,37.26,0.57)}
+dend[12] {pt3dadd(203.29,-182.49,45.76,0.57)}
+dend[12] {pt3dadd(227.19,-189.09,35.08,0.57)}
+}
+proc create_dend_13() {
+dend[13] {pt3dclear()}
+dend[13] {pt3dadd(17.67,46.32,12.31,0.945734)}
+dend[13] {pt3dadd(21.57,70.77,16.42,0.945734)}
+dend[13] {pt3dadd(49.44,98.53,16.75,0.945734)}
+dend[13] {pt3dadd(58.56,115.79,16.14,0.945734)}
+}
+proc create_dend_14() {
+dend[14] {pt3dclear()}
+dend[14] {pt3dadd(58.56,115.79,16.14,0.831173)}
+dend[14] {pt3dadd(81.68,139.19,16.13,0.831173)}
+}
+proc create_dend_15() {
+dend[15] {pt3dclear()}
+dend[15] {pt3dadd(81.68,139.19,16.13,0.639552)}
+dend[15] {pt3dadd(89.72,156.99,22.02,0.639552)}
+dend[15] {pt3dadd(115.99,189.39,20.11,0.639552)}
+dend[15] {pt3dadd(161.09,219.39,11.86,0.639552)}
+dend[15] {pt3dadd(174.29,236.49,8.99,0.639552)}
+}
+proc create_dend_16() {
+dend[16] {pt3dclear()}
+dend[16] {pt3dadd(174.29,236.49,8.99,0.53)}
+dend[16] {pt3dadd(194.89,268.39,0.18,0.53)}
+dend[16] {pt3dadd(210.29,324.59,-15.57,0.53)}
+dend[16] {pt3dadd(234.59,374.59,-22.86,0.53)}
+dend[16] {pt3dadd(254.39,405.59,-31.19,0.53)}
+dend[16] {pt3dadd(282.99,408.39,-36.53,0.53)}
+dend[16] {pt3dadd(313.29,428.69,-77.12,0.53)}
+}
+proc create_dend_17() {
+dend[17] {pt3dclear()}
+dend[17] {pt3dadd(174.29,236.49,8.99,0.53)}
+dend[17] {pt3dadd(186.89,258.79,29.72,0.53)}
+dend[17] {pt3dadd(184.19,273.09,37.61,0.53)}
+dend[17] {pt3dadd(172.69,289.09,36.66,0.53)}
+dend[17] {pt3dadd(155.19,293.09,50.16,0.53)}
+dend[17] {pt3dadd(145.79,311.09,58.07,0.53)}
+}
+proc create_dend_18() {
+dend[18] {pt3dclear()}
+dend[18] {pt3dadd(81.68,139.19,16.13,0.639552)}
+dend[18] {pt3dadd(93.19,139.09,7.89,0.639552)}
+dend[18] {pt3dadd(117.09,133.89,8.88,0.639552)}
+dend[18] {pt3dadd(130.79,137.09,8.07,0.639552)}
+}
+proc create_dend_19() {
+dend[19] {pt3dclear()}
+dend[19] {pt3dadd(130.79,137.09,8.07,0.53)}
+dend[19] {pt3dadd(149.79,135.99,5.8,0.53)}
+dend[19] {pt3dadd(174.69,138.79,-7.49,0.53)}
+dend[19] {pt3dadd(198.29,135.49,-4.6,0.53)}
+dend[19] {pt3dadd(222.09,120.99,-12.87,0.53)}
+dend[19] {pt3dadd(240.29,95.28,-12.13,0.53)}
+}
+proc create_dend_20() {
+dend[20] {pt3dclear()}
+dend[20] {pt3dadd(130.79,137.09,8.07,0.53)}
+dend[20] {pt3dadd(136.79,157.79,19.79,0.53)}
+dend[20] {pt3dadd(152.59,186.99,21.27,0.53)}
+dend[20] {pt3dadd(157.69,203.59,18.01,0.53)}
+dend[20] {pt3dadd(161.89,213.29,4.88,0.53)}
+dend[20] {pt3dadd(172.29,240.79,34.26,0.53)}
+dend[20] {pt3dadd(175.29,249.09,33.76,0.53)}
+}
+proc create_dend_21() {
+dend[21] {pt3dclear()}
+dend[21] {pt3dadd(58.56,115.79,16.14,0.57)}
+dend[21] {pt3dadd(40.8,125.09,11.03,0.57)}
+dend[21] {pt3dadd(35.09,150.79,0.29,0.57)}
+dend[21] {pt3dadd(43.54,197.29,-13.16,0.57)}
+dend[21] {pt3dadd(63.5,216.69,-24.04,0.57)}
+dend[21] {pt3dadd(72.67,243.09,-32.81,0.57)}
+dend[21] {pt3dadd(75.02,266.29,-36.75,0.57)}
+}
+proc create_dend_22() {
+dend[22] {pt3dclear()}
+dend[22] {pt3dadd(9.89,23.9,-1.79,0.59)}
+dend[22] {pt3dadd(16.84,46.17,-5.71,0.59)}
+dend[22] {pt3dadd(15.4,66.25,-17.7,0.59)}
+dend[22] {pt3dadd(-0.64,97.12,-48.59,0.59)}
+dend[22] {pt3dadd(-11.34,132.68,-66.89,0.59)}
+dend[22] {pt3dadd(-12.03,159.48,-78.99,0.59)}
+dend[22] {pt3dadd(-13.85,176.28,-91.7,0.59)}
+dend[22] {pt3dadd(-22.33,211.38,-126.6,0.59)}
+dend[22] {pt3dadd(-30.06,229.68,-139.6,0.59)}
+dend[22] {pt3dadd(-33.67,243.08,-161.2,0.59)}
+dend[22] {pt3dadd(-43.34,270.18,-158.6,0.59)}
+}
+proc create_dend_23() {
+dend[23] {pt3dclear()}
+dend[23] {pt3dadd(-29.92,-16.57,-33.68,0.59)}
+dend[23] {pt3dadd(-47.24,-11.36,-41.75,0.59)}
+dend[23] {pt3dadd(-49.47,5.83,-87.82,0.59)}
+}
+proc create_dend_24() {
+dend[24] {pt3dclear()}
+dend[24] {pt3dadd(-11.67,15.93,12.47,0.892049)}
+dend[24] {pt3dadd(-14.86,54.02,21.01,0.892049)}
+dend[24] {pt3dadd(14.51,110.19,29.66,0.892049)}
+dend[24] {pt3dadd(30.99,169.19,39.82,0.892049)}
+dend[24] {pt3dadd(57.26,204.49,31.05,0.892049)}
+dend[24] {pt3dadd(80.13,220.69,17.98,0.892049)}
+dend[24] {pt3dadd(93.32,248.59,3.61,0.892049)}
+dend[24] {pt3dadd(94.37,277.79,3.39,0.892049)}
+}
+proc create_dend_25() {
+dend[25] {pt3dclear()}
+dend[25] {pt3dadd(94.37,277.79,3.39,0.675097)}
+dend[25] {pt3dadd(123.09,305.09,1.65,0.675097)}
+dend[25] {pt3dadd(138.09,329.39,-1.38,0.675097)}
+}
+proc create_dend_26() {
+dend[26] {pt3dclear()}
+dend[26] {pt3dadd(138.09,329.39,-1.38,0.55)}
+dend[26] {pt3dadd(133.99,337.59,-14.38,0.55)}
+dend[26] {pt3dadd(130.79,358.79,-32.26,0.55)}
+dend[26] {pt3dadd(117.79,372.79,-29.73,0.55)}
+dend[26] {pt3dadd(104.69,382.39,-28.88,0.55)}
+}
+proc create_dend_27() {
+dend[27] {pt3dclear()}
+dend[27] {pt3dadd(138.09,329.39,-1.38,0.55)}
+dend[27] {pt3dadd(156.29,327.29,-9.73,0.55)}
+dend[27] {pt3dadd(168.39,331.79,-11.8,0.55)}
+dend[27] {pt3dadd(193.09,347.39,-26.74,0.55)}
+dend[27] {pt3dadd(201.59,359.49,-31.45,0.55)}
+dend[27] {pt3dadd(220.79,371.59,-23.85,0.55)}
+}
+proc create_dend_28() {
+dend[28] {pt3dclear()}
+dend[28] {pt3dadd(94.37,277.79,3.39,0.675097)}
+dend[28] {pt3dadd(94.86,293.79,9.86,0.675097)}
+dend[28] {pt3dadd(91.66,308.89,11.66,0.675097)}
+dend[28] {pt3dadd(82.8,350.29,11.28,0.675097)}
+dend[28] {pt3dadd(76.96,367.79,13.72,0.675097)}
+dend[28] {pt3dadd(76.57,373.49,14.47,0.675097)}
+}
+proc create_dend_29() {
+dend[29] {pt3dclear()}
+dend[29] {pt3dadd(76.57,373.49,14.47,0.55)}
+dend[29] {pt3dadd(68.19,397.09,20.81,0.55)}
+}
+proc create_dend_30() {
+dend[30] {pt3dclear()}
+dend[30] {pt3dadd(76.57,373.49,14.47,0.55)}
+dend[30] {pt3dadd(65.79,375.89,2.06,0.55)}
+dend[30] {pt3dadd(55.91,384.49,2.43,0.55)}
+dend[30] {pt3dadd(43.02,404.39,-9.01,0.55)}
+dend[30] {pt3dadd(33.54,416.29,-2.59,0.55)}
+}
+proc create_axon_0() {
+axon[0] {pt3dclear()}
+axon[0] {pt3dadd(-1.02,-1.98,-1.98,1)}
+axon[0] {pt3dadd(-27.19,-7.95,-7.95,1)}
+axon[0] {pt3dadd(-44.45,-0.39,-0.39,1)}
+axon[0] {pt3dadd(-48.96,3.39,3.39,1)}
+axon[0] {pt3dadd(-54.4575,5.03184,5.03184,1)}
+}
+proc build_sections() {
+create_soma_0()
+create_dend_0()
+create_dend_1()
+create_dend_2()
+create_dend_3()
+create_dend_4()
+create_dend_5()
+create_dend_6()
+create_dend_7()
+create_dend_8()
+create_dend_9()
+create_dend_10()
+create_dend_11()
+create_dend_12()
+create_dend_13()
+create_dend_14()
+create_dend_15()
+create_dend_16()
+create_dend_17()
+create_dend_18()
+create_dend_19()
+create_dend_20()
+create_dend_21()
+create_dend_22()
+create_dend_23()
+create_dend_24()
+create_dend_25()
+create_dend_26()
+create_dend_27()
+create_dend_28()
+create_dend_29()
+create_dend_30()
+create_axon_0()
+}
+proc connect_sections() {
+soma[0] {connect dend[0](0),1}
+dend[1] {connect dend[2](0),1}
+dend[4] {connect dend[5](0),1}
+dend[4] {connect dend[6](0),1}
+dend[3] {connect dend[4](0),1}
+dend[3] {connect dend[7](0),1}
+dend[1] {connect dend[3](0),1}
+soma[0] {connect dend[1](0),1}
+dend[9] {connect dend[10](0),1}
+dend[9] {connect dend[11](0),1}
+dend[8] {connect dend[9](0),1}
+dend[8] {connect dend[12](0),1}
+soma[0] {connect dend[8](0),1}
+dend[15] {connect dend[16](0),1}
+dend[15] {connect dend[17](0),1}
+dend[14] {connect dend[15](0),1}
+dend[18] {connect dend[19](0),1}
+dend[18] {connect dend[20](0),1}
+dend[14] {connect dend[18](0),1}
+dend[13] {connect dend[14](0),1}
+dend[13] {connect dend[21](0),1}
+soma[0] {connect dend[13](0),1}
+soma[0] {connect dend[22](0),1}
+soma[0] {connect dend[23](0),1}
+dend[25] {connect dend[26](0),1}
+dend[25] {connect dend[27](0),1}
+dend[24] {connect dend[25](0),1}
+dend[28] {connect dend[29](0),1}
+dend[28] {connect dend[30](0),1}
+dend[24] {connect dend[28](0),1}
+soma[0] {connect dend[24](0),1}
+soma[0] {connect axon[0](0),1}
+}
+
+proc init() {
+build_sections()
+connect_sections()
+passive_membrane()
+setnseg()
+active_membrane()
+}
+func lambda_func() {
+    return 1e5*sqrt(diam/(4*PI*$1*Ra*cm))
+}
+proc setnseg() {
+    	forsec "dend" nseg = int((L/(0.1*lambda_func(100))+.999)/2)*2+1
+        forsec "apic" nseg = int((L/(0.1*lambda_func(100))+.999)/2)*2+1
+    	forsec "axon" nseg = int((L/(0.1*lambda_func(100))+.999)/2)*2+1
+        forsec "soma" nseg = 1
+}
+proc passive_membrane() {
+  forall {    
+    insert pas
+    Ra    = 60
+    e_pas = -75.75
+    g_pas = 1/26000
+    cm    = 1.0
+  }
+}
+
+proc set_it() { local i localobj sref
+  forsec "dend"  pcabar_TC_iT_Des98=$1/2
+  forsec "soma" pcabar_TC_iT_Des98=$1
+                
+  soma sref = new SectionRef()
+  for i = 0, sref.nchild-1 sref.child[i] ifsec "dend" pcabar_TC_iT_Des98=$1*2
+                
+  forall if(ismembrane("TC_iT_Des98")) shift_TC_iT_Des98=0
+}
+
+proc set_l() {
+  forall {
+    pcabar_TC_iL=($1+$2)/2
+    beta_TC_iL=$1/($1+$2)
+  }
+  forsec "soma"  pcabar_TC_iL=$1+$2
+  forsec "axon"  pcabar_TC_iL=$1+$2
+}
+proc set_sk() {
+  forall gSK_E2bar_SK_E2=$1/2
+  forsec "soma"  gSK_E2bar_SK_E2=$1
+  forsec "axon"  gSK_E2bar_SK_E2=$1
+}
+proc set_bk() {
+  forall gkbar_iAHP=$1/2
+  forsec "soma"  gkbar_iAHP=$1
+  forsec "axon"  gkbar_iAHP=$1
+}
+proc set_cacc() {
+  forall gbar_cacc=$1/2
+  forsec "soma"  gbar_cacc=$1
+  forsec "axon"  gbar_cacc=$1
+}
+proc set_na() { local i localobj sref
+	forall gna_max_TC_HH=$1
+	forsec "dend" gna_max_TC_HH=$1/2
+                
+	soma sref=new SectionRef()
+	for i=0, sref.nchild-1 sref.child[i] ifsec "dend" gna_max_TC_HH=$1
+                
+	forsec "axon" for(x) if(x<0.5) gna_max_TC_HH(x)=$1*19
+}
+
+proc set_nap() { local i localobj sref
+	forall gna_max_TC_HHna16=$1
+	forsec "dend" gna_max_TC_HHna16=$1/2
+                 
+	soma sref = new SectionRef()
+	for i=0, sref.nchild-1 sref.child[i] ifsec "dend" gna_max_TC_HHna16=$1
+                 
+	forsec "axon" for(x) if(x>0.5) gna_max_TC_HHna16(x)=$1*19
+}
+
+proc set_km() {
+  forall gmax_iM=$1
+  forsec "axon" for(x) if(x>0.5) gmax_iM(x)=$1*$2
+}
+func get_km() {
+  return soma.gmax_iM
+}
+proc set_ka() {
+  forall gk_max_TC_iA=$1
+  forsec "axon" for(x) if(x<0.5) gk_max_TC_iA(x)=$1*19
+}
+
+proc set_kdr() {
+  forall gk_max_TC_HH=$1
+  forsec "axon" for(x) if(x<0.5) gk_max_TC_HH(x)=$1*19
+}
+
+proc set_h() {
+  forall if(ismembrane("TC_ih_Bud97")) gh_max_TC_ih_Bud97=$1
+}
+func get_h() {
+  return soma.gh_max_TC_ih_Bud97
+}
+
+proc active_membrane() {
+  forall {
+    insert TC_ih_Bud97
+    insert TC_iT_Des98
+    insert cacc
+    insert TC_HH
+    insert TC_iA
+    insert SK_E2
+    insert TC_iL
+    insert TC_HHna16
+    insert TC_cad
+    insert iM
+    
+    gh_max_TC_ih_Bud97=0
+    pcabar_TC_iT_Des98=0
+    gbar_cacc=0
+    gna_max_TC_HH=0
+    gk_max_TC_HH=0
+    gk_max_TC_iA=0
+    gSK_E2bar_SK_E2=0
+    pcabar_TC_iL=0
+    gna_max_TC_HHna16=0
+    gmax_iM=0
+    
+    ena = 50
+    ek = -90
+    ecl = -86
+
+    m_min_iM=0.025
+
+    
+    
+    taur_L1_TC_cad =14
+    taur_L2_TC_cad =50
+    delta_L1_TC_cad = 0.07
+    delta_L2_TC_cad = 0.07
+    beta_TC_iL = 0.2682926829268293
+    taur_T_TC_cad = 50
+    delta_T_TC_cad = 0.07
+  }
+
+set_na(0.008)
+set_nap(0.0001)
+set_kdr(0.08)
+set_ka(0.005)
+set_km(0.00033,50)
+set_l(0.0011,0.003)
+set_it(0.000085)
+set_cacc(0.0027)
+set_sk(0.0008)
+set_h(3.5e-5)  // 3.75e-5 for 6 OHDA
+}
+endtemplate AA0136
